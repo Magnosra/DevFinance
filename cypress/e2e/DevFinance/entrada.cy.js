@@ -3,7 +3,7 @@ describe('Teste Entrada', () => {
     
     it('Validacao de Entrada', () => {
         
-        cy.visit('https://dev-finances.vercel.app/')
+        cy.visit('/')
         cy.get('.float-button').click()
         cy.get('#description').type('Compra Supermercado')
         cy.get('#amount').type('10')
