@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main  # Substitua pela branch que deseja testar
-  schedule:
-    - cron: "0 8 * * 1-5" # Agendar de segunda a sexta-feira, às 08:00
 
 jobs:
   build:
