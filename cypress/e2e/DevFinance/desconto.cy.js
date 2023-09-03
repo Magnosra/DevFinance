@@ -1,7 +1,7 @@
 /// <reference types="Cypress"/>
 describe('Teste Saída', () => {
     
-    it('Validacao de Entrada', () => {
+    it('Validacao Desconto', () => {
         
         cy.visit('/')
         cy.get('.float-button').click()
