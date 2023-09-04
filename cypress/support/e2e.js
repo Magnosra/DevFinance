@@ -11,6 +11,6 @@
 
   import '@shelex/cypress-allure-plugin';
 
-Cypress.Commands.add('allureStep', (name, stepFunction) => {
-  cy.allure().step(name, stepFunction);
-});
+//Cypress.Commands.add('allureStep', (name, stepFunction) => {
+  //cy.allure().step(name, stepFunction);
+//});
