@@ -1,3 +1,4 @@
+
 // cypress/support/e2e.js
 
 // Configuração global (exemplo: URL base)
